@@ -1,0 +1,40 @@
+body{
+font-family: 'Roboto', sans-serif;;
+}
+header{
+position: absolute;
+width: 1440px;
+height: 100px;
+background: rgb(255, 255, 81);
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.lang, .money{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid gray;
+    padding-left: 3rem;
+}
+.social_network, .tel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid gray;
+    padding-left: 3rem;
+}
+.en{
+    padding: 2px;
+}
+.ru{
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(0, 255, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
